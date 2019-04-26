@@ -1,0 +1,15 @@
+language: php
+php:
+    - '7.2'
+    - '7.3'
+
+before_script:
+    - composer install
+
+script:
+    - composer validate --strict
+    - vendor/bin/phpcs src/
+
+cache:
+  directories:
+    - $HOME/.composer/cache

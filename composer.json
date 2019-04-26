@@ -1,0 +1,47 @@
+{
+    "name": "ulrack/dbal",
+    "description": "Database abstraction layer package from Ulrack",
+    "keywords": ["dbal"],
+    "type": "library",
+    "license": "MIT",
+    "prefer-stable": true,
+    "minimum-stability": "stable",
+    "require":
+    {
+        "php": "^7.2",
+        "ulrack/enum": "^1.0"
+    },
+    "authors": [
+    {
+        "name": "Ulrack",
+        "homepage": "https://www.ulrack.com/",
+        "role": "Developer"
+    }],
+    "config":
+    {
+        "sort-packages": true
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Ulrack\\Dbal\\": "src/"
+        }
+    },
+    "archive":
+    {
+        "exclude": [
+            "/tests",
+            "/.gitignore",
+            "/.travis.yml",
+            "/phpcs.xml",
+            "/PULL_REQUEST_TEMPLATE.md",
+            "/CODE_OF_CONDUCT.md",
+            "/CONTRIBUTING.md"
+        ]
+    },
+    "require-dev":
+    {
+        "squizlabs/php_codesniffer": "^3.4"
+    }
+}
