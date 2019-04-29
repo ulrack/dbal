@@ -6,7 +6,7 @@
 
 namespace Ulrack\Dbal\Common;
 
-interface PageableQueryInterface
+interface PageableQueryInterface extends QueryInterface
 {
     /**
      * Defines the limit for the result.

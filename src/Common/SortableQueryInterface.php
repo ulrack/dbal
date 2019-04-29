@@ -8,7 +8,7 @@ namespace Ulrack\Dbal\Common;
 
 use Ulrack\Dbal\Common\Enum\SortDirectionEnum;
 
-interface SortableQueryInterface
+interface SortableQueryInterface extends QueryInterface
 {
     /**
      * Adds a sorter to the query.

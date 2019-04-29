@@ -6,7 +6,7 @@
 
 namespace Ulrack\Dbal\Common;
 
-interface FilterableQueryInterface
+interface FilterableQueryInterface extends QueryInterface
 {
     /**
      * Adds a filter group to the query.

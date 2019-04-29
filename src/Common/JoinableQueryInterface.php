@@ -8,7 +8,7 @@ namespace Ulrack\Dbal\Common;
 
 use Ulrack\Dbal\Common\Enum\JoinTypeEnum;
 
-interface JoinableQueryInterface
+interface JoinableQueryInterface extends QueryInterface
 {
     /**
      * Adds a join to the query.
