@@ -9,7 +9,7 @@
     "require":
     {
         "php": "^7.2",
-        "ulrack/enum": "^1.0"
+        "grizz-it/enum": "^1.0"
     },
     "authors": [
     {

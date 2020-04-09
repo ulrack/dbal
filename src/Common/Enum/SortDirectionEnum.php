@@ -6,7 +6,7 @@
 
 namespace Ulrack\Dbal\Common\Enum;
 
-use Ulrack\Enum\Enum;
+use GrizzIt\Enum\Enum;
 
 /**
  * @method static SortDirectionEnum DIRECTION_ASC()
