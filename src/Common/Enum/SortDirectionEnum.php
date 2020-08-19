@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (C) GrizzIT, Inc. All rights reserved.
  * See LICENSE for license details.
@@ -19,12 +20,12 @@ class SortDirectionEnum extends Enum
      *
      * @var string
      */
-    const DIRECTION_ASC = 'ASC';
+    public const DIRECTION_ASC = 'ASC';
 
     /**
      * Defines the descending direction for a sorter.
      *
      * @var string
      */
-    const DIRECTION_DESC = 'DESC';
+    public const DIRECTION_DESC = 'DESC';
 }

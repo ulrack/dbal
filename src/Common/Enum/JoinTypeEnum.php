@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (C) GrizzIT, Inc. All rights reserved.
  * See LICENSE for license details.
@@ -21,26 +22,26 @@ class JoinTypeEnum extends Enum
      *
      * @var string
      */
-    const JOIN_INNER = 'INNER JOIN';
+    public const JOIN_INNER = 'INNER JOIN';
 
     /**
      * Defines a left join for the query.
      *
      * @var string
      */
-    const JOIN_LEFT  = 'LEFT JOIN';
+    public const JOIN_LEFT  = 'LEFT JOIN';
 
     /**
      * Defines a right join for the query.
      *
      * @var string
      */
-    const JOIN_RIGHT = 'RIGHT JOIN';
+    public const JOIN_RIGHT = 'RIGHT JOIN';
 
     /**
      * Defines a full join for the query.
      *
      * @var string
      */
-    const JOIN_FULL  = 'FULL OUTER JOIN';
+    public const JOIN_FULL  = 'FULL OUTER JOIN';
 }
