@@ -1,3 +1,5 @@
+# DEPRECATION NOTICE: this package has been moved and improved at [grizz-it/dbal](https://github.com/grizz-it/dbal)
+
 [![Build Status](https://travis-ci.com/ulrack/dbal.svg?branch=master)](https://travis-ci.com/ulrack/dbal)
 
 # Ulrack DBAL
